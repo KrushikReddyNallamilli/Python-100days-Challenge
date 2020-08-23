@@ -52,10 +52,50 @@
 # * * * * *
 # ----------or--------
 
-n=int(input('Enter a number'))
-for i in range(1,n+1):
-	for j in range(i):
-		print("*",end=" ")
-	print()
+# n=int(input('Enter a number'))
+# for i in range(1,n+1):
+# 	for j in range(i):
+# 		print("*",end=" ")
+# 	print()
 
 #---------------------------------
+
+# pattern4
+# a="ABCDE"
+# for i in range (len(a)):
+# 	print(a)
+
+# --or---
+
+# for i in range (5):
+# 	for j in range  (5):
+# 		print(chr(j+65),end="")
+# 	print()
+# -----or--------
+# for i in range (5):
+# 	for j in range  (65,70):
+# 		print(chr(j),end="")
+# 	print()
+# output
+# ABCDE
+# ABCDE
+# ABCDE
+# ABCDE
+# ABCDE
+
+# pattern 5
+# for i in range (5):
+# 	for j in range  (5):
+# 		print(chr(i+65),end="")
+# 	print()
+# # -----or-------
+
+# for i in range(5):
+# 	print(chr(i+65)*5)
+
+# Output
+# AAAAA
+# BBBBB
+# CCCCC
+# DDDDD
+# EEEEE
