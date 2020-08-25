@@ -22,3 +22,8 @@ if cnt==len(str(a)):
 	print("mega prime")
 else:
 	print("Not mega prime")
+
+
+# Mega prime number is a prime number in which all individual digits of the prime number are also prime
+# for eg 53 is a prime number
+# here both 5 and 3 are also prime so 53 is a Mege Prime Number
